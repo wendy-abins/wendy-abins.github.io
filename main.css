@@ -478,3 +478,8 @@ a:hover {
   /* background-color: rgba(0,0,0,0.6); */
   background-color: #223F05
 }
+
+.industry {
+  padding-top: 400px;
+  min-width: 50%;
+}
