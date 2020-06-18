@@ -427,7 +427,7 @@ a:hover {
 
 .background-fixed {
   /* background-image: url("../static/grass-field.jpg"); */
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../static/grass-field.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(static/grass-field.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
