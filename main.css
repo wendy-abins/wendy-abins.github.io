@@ -1,7 +1,5 @@
 html * {
-    /* font-family: "Open Sans", sans-serif, serif; */
     font-family: "Playfair Display";
-    /* font-family: "Open Sans"; */
 }
 
 body {
@@ -9,16 +7,16 @@ body {
 }
 
 a {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .card a {
-  color: blue;
+    color: blue;
 }
 
 a:hover {
-  color: #ffffff;
-  background-color: #223F05;
+    color: #ffffff;
+    background-color: #223F05;
 }
 
 .navbar {
@@ -73,44 +71,43 @@ a:hover {
     color: #ffffff;
 }
 
-
 .table-section {
-  padding-top: 500px;
+    padding-top: 500px;
 }
 
 .description-subsection {
-  padding-top: 800px;
+    padding-top: 800px;
 }
 
 @media (max-width: 992px) {
-  .description-subsection {
-    padding-top: 1300px
-  }
+    .description-subsection {
+        padding-top: 1300px
+    }
 }
 
 @media (max-width: 768px) {
-  .description-subsection {
-    padding-top: 1600px
-  }
+    .description-subsection {
+        padding-top: 1600px
+    }
 }
 
 @media(max-width: 479px) {
-  .description-subsection {
-    padding-top: 1300px;
-  }
-  .table-section {
-    padding-top: 1600px;
-  }
+    .description-subsection {
+        padding-top: 1300px;
+    }
+    .table-section {
+        padding-top: 1600px;
+    }
 }
 
 @media(max-width: 479px) {
-  .claims {
-    padding-top: 1800px;
-  }
+    .claims {
+        padding-top: 1800px;
+    }
 }
 
 .description h1 {
-    font-size: 48px; 
+    font-size: 48px;
 }
 
 .description p {
@@ -120,20 +117,21 @@ a:hover {
 }
 
 .list-description {
-  background-color: #223F05;
-  opacity: .8;
-  font-weight: bold;/
+    background-color: #223F05;
+    opacity: .8;
+    font-weight: bold;
+    /
 }
 
 @media (min-width: 1399px) {
-  .list-description {
-    margin-left: 25%;
-    margin-right: 25%;
-  }
+    .list-description {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 }
 
 .container-fluid {
-  padding-top: 1em;
+    padding-top: 1em;
 }
 
 .scrolled {
@@ -159,222 +157,247 @@ a:hover {
 }
 
 .about {
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    float: right;
 }
 
 @media (min-width: 479px) {
-  .about {
-    max-width: 25%;
-  }
-  }
+    .about {
+        max-width: 25%;
+    }
+}
 
-
-* {box-sizing:border-box}
- 
+* {
+    box-sizing: border-box
+}
 
 .slideshow-container {
-  width: auto;
-  position: relative;
-  margin: auto;
+    width: auto;
+    position: relative;
+    margin: auto;
 }
+
 
 /* Hide the images by default */
+
 .mySlides {
-  display: none;
+    display: none;
 }
+
 
 /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
+
 
 /* Position the "next button" to the right */
+
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
+
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
+
 
 /* Caption text */
+
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
+
 
 /* Number text (1/3 etc) */
+
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active,
+.dot:hover {
+    background-color: #717171;
 }
+
 
 /* Fading animation */
+
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 3s;
-  animation-name: fade;
-  animation-duration: 3s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 .card {
-  margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .card-header {
-  color: black;
+    color: black;
 }
 
 .card-img-top {
-  width: 200px;
-  height: 250px;
-  display: block;
-  object-fit: cover;
+    width: 200px;
+    height: 250px;
+    display: block;
+    object-fit: cover;
 }
 
 .card-body {
-  color: black;
+    color: black;
 }
 
 .cards {
-  padding-top: 1750px;
+    padding-top: 1750px;
 }
 
 @media (max-width: 1199px) {
-  .cards {
-    padding-top: 3000px
-  }
+    .cards {
+        padding-top: 3000px
+    }
 }
 
 @media (max-width: 768px) {
-  .cards {
-    padding-top: 3500px
-  }
+    .cards {
+        padding-top: 3500px
+    }
 }
 
 .contact-card {
-  text-align: center;
-  margin-bottom: 25px;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 @media (min-width:768px) {
-  .contact-card {
-    margin-left: 25%;
-    margin-right: 25%;
-  }
+    .contact-card {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 }
 
 .vgr-cards .card-img {
-  width: 100%;
-  height: 90%;
-  margin-left: 50%;
-  transform: translateX(-50%);
+    width: 100%;
+    height: 90%;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 .vgr-cards .card-body {
-  flex: 2;
-  padding: 0 0 0 1.25rem;
+    flex: 2;
+    padding: 0 0 0 1.25rem;
 }
 
 .background-fixed {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(static/grass-field.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(static/grass-field.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #westford {
-  height: 400px;
-  width: 50%;
-  margin: auto;
-  margin-bottom: 100px;
+    height: 400px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
 }
 
 #deerfield {
-  height: 400px;
-  width: 50%;
-  margin: auto;
-  margin-bottom: 100px;
+    height: 400px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
 }
 
 @media (max-width: 768px) {
-  #westford {
-    width: 100%
-  }
-  #deerfield {
-    width: 100%;
-  }
+    #westford {
+        width: 100%
+    }
+    #deerfield {
+        width: 100%;
+    }
 }
 
 .about-us {
-  padding-top: 1000px;
+    padding-top: 1000px;
 }
 
 @media (max-width: 768px) {
-  .contact {
-  padding-top: 1000px;
-  }
-  .about-us {
-    padding-top: 1500px;
-  }
+    .contact {
+        padding-top: 1000px;
+    }
+    .about-us {
+        padding-top: 1500px;
+    }
 }
 
 .fb-page {
-  margin: auto;
+    margin: auto;
 }
 
 .table {
-  background-color: #223F05
+    background-color: #223F05
 }
 
 .industry {
-  top: 25%;
-  min-width: 50%;
+    top: 25%;
+    min-width: 50%;
 }
 
 @media (max-width: 479px) {
-  .industry {
-  top: 0%;
-    min-width: 75%;
-  }
+    .industry {
+        top: 0%;
+        min-width: 75%;
+    }
 }
