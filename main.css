@@ -1,5 +1,7 @@
 html * {
-    font-family: "Open Sans", sans-serif, serif;
+    /* font-family: "Open Sans", sans-serif, serif; */
+    font-family: "Playfair Display";
+    /* font-family: "Open Sans"; */
 }
 
 body {
@@ -35,7 +37,6 @@ a:hover {
 
 .nav-link {
     color: #ffffff;
-    /* background-color: #223F05; */
 }
 
 .navbar-collapse {
@@ -44,7 +45,6 @@ a:hover {
 
 .parallax {
     background-image: url("./static/grass-field.jpg");
-    /* height: 1080px; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,12 +52,10 @@ a:hover {
 }
 
 .parallax-window {
-    /* min-height: 600px; */
     background: transparent;
 }
 
 .overlay {
-    /* position: absolute; */
     min-height: 100%;
     min-width: 100%;
     left: 0;
@@ -96,12 +94,18 @@ a:hover {
   }
 }
 
-@media(max-width: 460px) {
+@media(max-width: 479px) {
   .description-subsection {
     padding-top: 1300px;
   }
   .table-section {
     padding-top: 1600px;
+  }
+}
+
+@media(max-width: 479px) {
+  .claims {
+    padding-top: 1800px;
   }
 }
 
@@ -115,23 +119,10 @@ a:hover {
     line-height: 1.5;
 }
 
-/* .description-subsection h1 {
-  position: absolute;
-  color: white;
-} */
-
-/* ul {
-  padding-left: 0;
-} */
-
 .list-description {
-  /* background-color: #2B2D2F; */
   background-color: #223F05;
   opacity: .8;
-  font-weight: bold;
-  /* max-width: 50%; */
-  /* margin-left: 25%;
-  margin-right: 25%; */
+  font-weight: bold;/
 }
 
 @media (min-width: 1399px) {
@@ -141,6 +132,10 @@ a:hover {
   }
 }
 
+.container-fluid {
+  padding-top: 1em;
+}
+
 .scrolled {
     background-color: #223F05;
     transition: background-color 200ms linear;
@@ -148,9 +143,6 @@ a:hover {
 
 .padded {
     margin-top: 50px;
-    /* display: inline-block; */
-    /* margin-left: 50px; */
-    /* margin-bottom: 10px; */
 }
 
 .col-background {
@@ -160,24 +152,17 @@ a:hover {
     margin-left: 5%;
 }
 
-@media (min-width: 479px) {
-  .container-fluid {
-    margin-left: 25%;
-  }
-}
-
 .agents {
     background-image: url("./static/agents.jpeg");
-    /* background-repeat: no-repeat; */
     background-size: cover;
     margin-left: 5%;
 }
 
 .about {
   margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   float: right;
 }
@@ -188,12 +173,11 @@ a:hover {
   }
   }
 
-/* slideshow css below */
-* {box-sizing:border-box}
 
-/* Slideshow container */
+* {box-sizing:border-box}
+ 
+
 .slideshow-container {
-  /* max-width: 1000px; */
   width: auto;
   position: relative;
   margin: auto;
@@ -251,18 +235,6 @@ a:hover {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
 .active, .dot:hover {
   background-color: #717171;
 }
@@ -284,30 +256,6 @@ a:hover {
   from {opacity: .4}
   to {opacity: 1}
 }
-/* end slideshow css */
-
-/* .cards {
-  margin-top: 2000px;
-}
-
-@media (min-width: 499px) {
-  .cards {
-    margin-top: 1800px;
-  }
-}
-
-
-@media (max-width: 699px) {
-  .cards {
-    margin-top: 1200px;
-  }
-}
-
-@media (max-width: 899px) {
-  .cards {
-    margin-top: 1200px;
-  }
-} */
 
 .card {
   margin-bottom: 100px;
@@ -355,83 +303,24 @@ a:hover {
     margin-right: 25%;
   }
 }
-/* 
-.card {
-  border: none;
-}
 
-.card-text {
-  color: black !important;
-}
-.card-img {
-  border-radius: 0;
-  padding-top: 5%;
-  padding-right: 5%;
-  padding-left: 5%;
-}
-.vgr-cards .card {
-  display: flex;
-  flex-flow: wrap;
-  flex: 100%;
-  margin-bottom: 40px;
-}
-.vgr-cards .card:nth-child(even) .card-img-body {
-  order: 2;
-}
-.vgr-cards .card:nth-child(even) .card-body {
-  padding-left: 0;
-  padding-right: 1.25rem;
-}
-@media (max-width: 576px) {
-  .vgr-cards .card {
-    display: block;
- }
-}
-.vgr-cards .card-img-body {
-  flex: 1;
-  overflow: hidden;
-  position: relative;
-}
-/* @media (max-width: 576px) {
-  .vgr-cards .card-img-body {
-    width: 100%;
-    height: 200px;
-    margin-bottom: 20px;
- }
-} */
 .vgr-cards .card-img {
   width: 100%;
-  /* height: auto; */
   height: 90%;
-  /* position: absolute; */
   margin-left: 50%;
   transform: translateX(-50%);
 }
-/* @media (max-width: 1140px) {
-  .vgr-cards .card-img {
-    margin: 0;
-    transform: none;
-    width: 100%;
-    height: auto;
- }
-} */
+
 .vgr-cards .card-body {
   flex: 2;
   padding: 0 0 0 1.25rem;
 }
-/* @media (max-width: 576px) {
-  .vgr-cards .card-body {
-    padding: 0;
- }
-} */
 
 .background-fixed {
-  /* background-image: url("../static/grass-field.jpg"); */
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(static/grass-field.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  /* background: rgba(0, 0, 0, 0.6) */
 }
 
 #westford {
@@ -475,11 +364,17 @@ a:hover {
 }
 
 .table {
-  /* background-color: rgba(0,0,0,0.6); */
   background-color: #223F05
 }
 
 .industry {
-  padding-top: 400px;
+  top: 25%;
   min-width: 50%;
+}
+
+@media (max-width: 479px) {
+  .industry {
+  top: 0%;
+    min-width: 75%;
+  }
 }
