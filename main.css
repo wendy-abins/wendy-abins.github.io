@@ -62,48 +62,13 @@ a:hover {
 }
 
 .description {
-    padding-top: 65px;
+    margin: auto;
+    padding-top: 33vh;
     left: 50%;
-    position: absolute;
+    width: 50%;
     top: 45%;
-    transform: translate(-50%, -55%);
     text-align: center;
     color: #ffffff;
-}
-
-.table-section {
-    padding-top: 500px;
-}
-
-.description-subsection {
-    padding-top: 800px;
-}
-
-@media (max-width: 992px) {
-    .description-subsection {
-        padding-top: 1300px
-    }
-}
-
-@media (max-width: 768px) {
-    .description-subsection {
-        padding-top: 1600px
-    }
-}
-
-@media(max-width: 479px) {
-    .description-subsection {
-        padding-top: 1300px;
-    }
-    .table-section {
-        padding-top: 1600px;
-    }
-}
-
-@media(max-width: 479px) {
-    .claims {
-        padding-top: 1800px;
-    }
 }
 
 .description h1 {
@@ -299,7 +264,7 @@ a:hover {
     color: black;
 }
 
-.cards {
+/* .cards {
     padding-top: 1750px;
 }
 
@@ -313,7 +278,7 @@ a:hover {
     .cards {
         padding-top: 3500px
     }
-}
+} */
 
 .contact-card {
     text-align: center;
@@ -401,3 +366,10 @@ a:hover {
         min-width: 75%;
     }
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
