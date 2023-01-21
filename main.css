@@ -264,21 +264,9 @@ a:hover {
     color: black;
 }
 
-/* .cards {
-    padding-top: 1750px;
+.cards {
+  padding-bottom: 1%
 }
-
-@media (max-width: 1199px) {
-    .cards {
-        padding-top: 3000px
-    }
-}
-
-@media (max-width: 768px) {
-    .cards {
-        padding-top: 3500px
-    }
-} */
 
 .contact-card {
     text-align: center;
@@ -382,4 +370,8 @@ a:hover {
 
 .pdf-svg {
     width: 30%;
+}
+
+.afis-banner {
+  margin-bottom: 50px
 }
